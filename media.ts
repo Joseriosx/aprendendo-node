@@ -11,13 +11,13 @@ while(loop){
 
         const media = (nota1 + nota2 + nota3)/3
 
-        if(media <= 4) {
+if(media <= 4) {
+                
                 console.log(`O aluno: ${aluno} obteve a média: ${media} e está REPROVADO.`)
-}
-        else if (media >= 7) {
+} else if (media >= 7) {
+                
                 console.log(`O aluno: ${aluno} obteve a média: ${media} e está APROVADO.`)
-}
-        else {
+} else {
                 console.log(`O aluno ${aluno} obteve a média: ${media} e está de RECUPERAÇÃO.`)
 }
         const continuar:number = Number(tela.question('Deseja continuar no sistema?\nSIM - 1 | NÃO - 2'))
